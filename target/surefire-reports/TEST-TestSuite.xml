@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="49" failures="4" name="TestSuite" time="234.511" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/juansanchez/IdeaProjects/seleniumProject_B24"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/juansanchez/IdeaProjects/seleniumProject_B24"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/6p/tpncg1t92574rhv1t9m8phb40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Users/juansanchez/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.5744.223/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Users/juansanchez/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.5744.223/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/juansanchez/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/juansanchez/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.5744.223/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/juansanchez"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="juansanchez"/>
+    <property name="java.class.path" value="/Users/juansanchez/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.5744.223/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Users/juansanchez/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.5744.223/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/Users/juansanchez/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.5744.223/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3 clean install -U"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="/Users/juansanchez/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/juansanchez/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.5744.223/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.cybertek.tests.day08_implicitwait_checkbox_radio_testing.TestNgIntro" name="test1" time="0.003"/>
+  <testcase classname="com.cybertek.tests.day08_implicitwait_checkbox_radio_testing.TestNgIntro" name="test2" time="0.007">
+    <failure message="/ by zero" type="java.lang.ArithmeticException">java.lang.ArithmeticException: / by zero
+	at com.cybertek.tests.day08_implicitwait_checkbox_radio_testing.TestNgIntro.test2(TestNgIntro.java:14)
+</failure>
+  </testcase>
+  <testcase classname="com.cybertek.tests.day16_download_upload_js_executor.FileDownLoadTest" name="fileDownLoadTest" time="3.122"/>
+  <testcase classname="com.cybertek.tests.day16_download_upload_js_executor.FileUpLoadTest" name="upLoadFileTest" time="1.331"/>
+  <testcase classname="com.cybertek.tests.day17_upload_js_executer.Guru99UploadTest" name="guruUpLoadTest" time="5.555"/>
+  <testcase classname="com.cybertek.tests.day17_upload_js_executer.ScrollToElementTest" name="scrollTest" time="4.276">
+    <failure message="invalid selector: Unable to locate an element with the xpath expression //a[@href=&apos;/contact] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//a[@href=&apos;/contact]&apos; is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Juans-MBP.fios-router.home&apos;, ip: &apos;fe80:0:0:0:14b3:ad2e:936a:44fd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/6p/tpncg1t9257...}, goog:chromeOptions: {debuggerAddress: localhost:49559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28170ee26e20fbe796730cb6ba4f4d17
+*** Element info: {Using=xpath, value=//a[@href=&apos;/contact]}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[@href=&apos;/contact] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//a[@href=&apos;/contact]&apos; is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Juans-MBP.fios-router.home&apos;, ip: &apos;fe80:0:0:0:14b3:ad2e:936a:44fd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/6p/tpncg1t9257...}, goog:chromeOptions: {debuggerAddress: localhost:49559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28170ee26e20fbe796730cb6ba4f4d17
+*** Element info: {Using=xpath, value=//a[@href=&apos;/contact]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.cybertek.tests.day17_upload_js_executer.ScrollToElementTest.scrollTest(ScrollToElementTest.java:23)
+</failure>
+    <system-err>Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 41218
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 18, 2021 11:27:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.cybertek.tests.day17_upload_js_executer.JavaScriptExecutorTest" name="alertExampleTest" time="3.115"/>
+  <testcase classname="com.cybertek.tests.day17_upload_js_executer.JavaScriptExecutorTest" name="scrollTest" time="21.184"/>
+  <testcase classname="com.cybertek.tests.day11_alerts_iframe_windows.IFramesExampleTest" name="multipleFramesTest" time="0.323"/>
+  <testcase classname="com.cybertek.tests.day11_alerts_iframe_windows.AlertExampleTest" name="jSAlert" time="2.253"/>
+  <testcase classname="com.cybertek.tests.day11_alerts_iframe_windows.AlertExampleTest" name="jSConfirm" time="2.27"/>
+  <testcase classname="com.cybertek.tests.day11_alerts_iframe_windows.AlertExampleTest" name="jSPrompt" time="2.33"/>
+  <testcase classname="com.cybertek.tests.day11_alerts_iframe_windows.AlertExampleTest" name="jSPromptMessageRequest" time="0.433"/>
+  <testcase classname="com.cybertek.tests.day11_alerts_iframe_windows.AlertExampleTest" name="jsConfirmCancelTest" time="0.447"/>
+  <testcase classname="com.cybertek.tests.day11_alerts_iframe_windows.MultipleWindowsExampleTest" name="demoQAMultipleWindows" time="5.298"/>
+  <testcase classname="com.cybertek.tests.day11_alerts_iframe_windows.MultipleWindowsExampleTest" name="windowsTest" time="0.646"/>
+  <testcase classname="com.cybertek.tests.day13_faker_practice_browserutil_properties.RegistrationFormNegativeTest" name="invalidFirstNameTest" time="5.049">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#Wooden_spoon&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Juans-MBP.fios-router.home&apos;, ip: &apos;fe80:0:0:0:14b3:ad2e:936a:44fd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/6p/tpncg1t9257...}, goog:chromeOptions: {debuggerAddress: localhost:49854}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c406efcc7c75e2ce62c9d8671f8c4ed
+*** Element info: {Using=id, value=Wooden_spoon}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#Wooden_spoon&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Juans-MBP.fios-router.home&apos;, ip: &apos;fe80:0:0:0:14b3:ad2e:936a:44fd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/6p/tpncg1t9257...}, goog:chromeOptions: {debuggerAddress: localhost:49854}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c406efcc7c75e2ce62c9d8671f8c4ed
+*** Element info: {Using=id, value=Wooden_spoon}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.cybertek.tests.day13_faker_practice_browserutil_properties.RegistrationFormNegativeTest.invalidFirstNameTest(RegistrationFormNegativeTest.java:15)
+</failure>
+    <system-err>Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 27539
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 18, 2021 11:28:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.cybertek.tests.day10_dropdown_alerts_iframes_windows.AmazonDepartmentsNamesListTest" name="amazonDepartmentTest" time="44.898"/>
+  <testcase classname="com.cybertek.tests.day10_dropdown_alerts_iframes_windows.AmazonDepartmentsNamesListTest" name="runMethod" time="0.008"/>
+  <testcase classname="com.cybertek.tests.day10_dropdown_alerts_iframes_windows.HandlingAlertTest" name="confirmAlertTest" time="1.457"/>
+  <testcase classname="com.cybertek.tests.day10_dropdown_alerts_iframes_windows.HandlingAlertTest" name="jSAlertTest" time="1.405"/>
+  <testcase classname="com.cybertek.tests.day10_dropdown_alerts_iframes_windows.CarGurusUsedCarSearchTest" name="searchForMinivanTest" time="15.623"/>
+  <testcase classname="com.cybertek.tests.day14_webtables_properties.WebTableDemoTest" name="getAllColumnData" time="0.224"/>
+  <testcase classname="com.cybertek.tests.day14_webtables_properties.WebTableDemoTest" name="printAllTableData" time="0.56"/>
+  <testcase classname="com.cybertek.tests.day14_webtables_properties.WebTableDemoTest" name="readFromTableTest" time="0.494"/>
+  <testcase classname="com.cybertek.tests.day14_webtables_properties.WebTableDemoTest" name="readNextCell" time="0"/>
+  <testcase classname="com.cybertek.tests.day14_webtables_properties.SmartBearProductTest" name="smartBearTest" time="2.241"/>
+  <testcase classname="com.cybertek.tests.day15_properites_driverutil_testbase.PropertiesFileTest" name="configurationReaderUnitTest" time="0"/>
+  <testcase classname="com.cybertek.tests.day15_properites_driverutil_testbase.PropertiesFileTest" name="readValuesFromPropertiesFile" time="0.004"/>
+  <testcase classname="com.cybertek.tests.day15_properites_driverutil_testbase.DriverUtilTest" name="driverClassTest" time="9.561"/>
+  <testcase classname="com.cybertek.tests.day15_properites_driverutil_testbase.SystemPropertiesTest" name="readingSystemProperties" time="0.001"/>
+  <testcase classname="com.cybertek.tests.day15_properites_driverutil_testbase.TechlisticWebTableTest" name="tallBuildingsTableTest" time="13.341"/>
+  <testcase classname="com.cybertek.tests.day09_testing_dropdowns.TestNGIntro" name="test1" time="0"/>
+  <testcase classname="com.cybertek.tests.day09_testing_dropdowns.TestNGIntro" name="myTest2" time="0"/>
+  <testcase classname="com.cybertek.tests.day18_actions_pom_intro.ActionsDemoTest" name="googleFeelingLuckyHoverBtnTest" time="10.995"/>
+  <testcase classname="com.cybertek.tests.day18_actions_pom_intro.ActionsDemoTest" name="hoverElementTest" time="2.03"/>
+  <testcase classname="com.cybertek.tests.day18_actions_pom_intro.ActionsDemoTest" name="hoverOverGroupOfElm" time="2.245"/>
+  <testcase classname="com.cybertek.tests.day18_actions_pom_intro.ActionsDoubleClickTest" name="doubleClickTest" time="4.051"/>
+  <testcase classname="com.cybertek.tests.day18_actions_pom_intro.EtsySubscribeTest" name="EtsySubTest" time="13.297"/>
+  <testcase classname="com.cybertek.tests.day18_actions_pom_intro.ActionsDragAndDropTest" name="dragAndDropTest" time="2.229"/>
+  <testcase classname="com.cybertek.tests.day18_actions_pom_intro.ActionsSendKeysTest" name="rightClickTest" time="4.371"/>
+  <testcase classname="com.cybertek.tests.day18_actions_pom_intro.ActionsSendKeysTest" name="scrollWithKeysTest" time="3.298"/>
+  <testcase classname="com.cybertek.tests.day20_review_wait.IframeActionsTest" name="test" time="7.076"/>
+  <testcase classname="com.cybertek.tests.day12_windows_practice_faker.DemoQAMultipleWindowTest" name="newWindowTest" time="0.772"/>
+  <testcase classname="com.cybertek.tests.day19_page_object_model.ContextClickTest" name="contextClickTest" time="3.974"/>
+  <testcase classname="com.cybertek.tests.day19_page_object_model.LibraryLoginPOMTest" name="invalidCredentialsTest" time="1.457"/>
+  <testcase classname="com.cybertek.tests.day19_page_object_model.LibraryLoginPOMTest" name="positiveLoginPage" time="2.571"/>
+  <testcase classname="com.cybertek.tests.day19_page_object_model.DragAndDropTest" name="cargurusPriceSliderTest" time="25.299">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//button[@aria-valuemin=&apos;3000&apos;])[1]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Juans-MBP.fios-router.home&apos;, ip: &apos;fe80:0:0:0:14b3:ad2e:936a:44fd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/6p/tpncg1t9257...}, goog:chromeOptions: {debuggerAddress: localhost:51137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 468b7080eb17f6d0b2160275aee0a6f5
+*** Element info: {Using=xpath, value=(//button[@aria-valuemin=&apos;3000&apos;])[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//button[@aria-valuemin=&apos;3000&apos;])[1]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Juans-MBP.fios-router.home&apos;, ip: &apos;fe80:0:0:0:14b3:ad2e:936a:44fd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/6p/tpncg1t9257...}, goog:chromeOptions: {debuggerAddress: localhost:51137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 468b7080eb17f6d0b2160275aee0a6f5
+*** Element info: {Using=xpath, value=(//button[@aria-valuemin=&apos;3000&apos;])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.cybertek.tests.day19_page_object_model.DragAndDropTest.cargurusPriceSliderTest(DragAndDropTest.java:29)
+</failure>
+    <system-err>Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 8233
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 18, 2021 11:32:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.cybertek.tests.day19_page_object_model.DragAndDropTest" name="guru99DragAndDropTest" time="3.387"/>
+</testsuite>
